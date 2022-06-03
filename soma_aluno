@@ -1,0 +1,27 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class soma_aluno {
+    public static void main (String[] args) {
+
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+
+            int x, y;
+
+            System.out.println("Digite os numeros para executar a soma do intervalo: ");
+            x = sc.nextInt();
+            y = sc.nextInt();
+        System.out.println(soma_intervalo(x,y));
+        }
+
+    private static int soma_intervalo(int x, int y) {
+        int total, resultado_parcial;
+        total = y/2;
+        resultado_parcial = y+x;
+
+        int resultado = total * resultado_parcial;
+        return resultado;
+    }
+}
