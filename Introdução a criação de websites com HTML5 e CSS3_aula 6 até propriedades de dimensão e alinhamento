@@ -1,0 +1,115 @@
+index.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Juliano Santos</title>
+    <link rel = "stylesheet" href="style.css">
+  </head>
+  <body>
+  <header>
+    <IMG src="profile.png" alt="Ilustração foto perfil" class="photo">
+    <h1 id="title">Juliano Santos</h1>
+  </header>
+  <section>
+    <header>
+      <h2 class="subtitle">Posts</h2>
+    </header>
+    <article class="post">
+      <header>
+        <h3 class="post_title">Post #1</h3>
+        <img src="codiing%20(1).png" alt="Editor de texto contendo código HTML" class="post_image">
+      </header>
+      <p class="post_contente">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        <a href="https://sp.booking.com/index.html?aid=1535066&label=ptbr-edge-ntp-topsites-curate-ana"
+           target="_blank">BOOKING</a>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+        <a href="malito:juliano.financeiro@yahoo.com">EMAIL</a> galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+        with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+        software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+    </article>
+  </section>
+  <footer>
+    <ul class="contacts_list">
+      <li>
+        <a href="malito:juliano.financeiro@yahoo.com" target="_blank">juliano.financeiro@yahoo.com</a>
+      </li>
+      <li>
+        <a href="https://github.com/JulianoDev92" target="_blank">GitHub </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/juliano-santos-894019a0/">Linkedin</a>
+      </li>
+    </ul>
+  </footer>
+  </body>
+</html>
+
+//código CSS
+
+Style.css
+
+body {
+  background: whitesmoke;
+  front-family: Verdana;
+  max-width: 900px;
+  margin: auto;
+}
+
+.photo {
+  border: 1px solid #505050;
+  border-radius: 50%;
+}
+
+#title, subtitle, post title {
+  color: #505050;
+}
+
+#title{
+  front-size: 40px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: line-through;
+  color: #505050;
+}
+
+.post title {
+  front-size: 16px;
+  front-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.post{
+  background: #ffffff;
+  padding: 15px;
+  border: 3px solid #505050;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.post_contente {
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+.post_image {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.contacts_list {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.contact_list li a {
+  texte-decoration: none;
+}
